@@ -1,0 +1,72 @@
+[
+    {
+        "speaker": "Javier Zarzalejos",
+        "political_group": "European People's Party (EPP)",
+        "language": "Spanish",
+        "arguments": {
+            "context": "Zarzalejos discusses the impact of disinformation on democratic systems, referencing historical totalitarian regimes and current challenges posed by fake news.",
+            "assessment": "He assesses that democratic systems are under threat from disinformation, which is exacerbated by technology and government strategies.",
+            "proposals": "He calls for the protection of independent media and denounces government attempts to impose censorship under the guise of combating disinformation."
+        }
+    },
+    {
+        "speaker": "Ana Catarina Mendes",
+        "political_group": "Progressive Alliance of Socialists and Democrats (S&D)",
+        "language": "Portuguese",
+        "arguments": {
+            "context": "Mendes highlights the manipulation of information by world leaders and the importance of the Media Freedom Regulation.",
+            "assessment": "She assesses that adversaries of democracy exploit digital platforms to spread chaos and undermine democratic values.",
+            "proposals": "She proposes further implementation of regulations on digital services and emphasizes the need for artificial intelligence to support democracies."
+        }
+    },
+    {
+        "speaker": "Ondřej Knotek",
+        "political_group": "Identity and Democracy (ID)",
+        "language": "Czech",
+        "arguments": {
+            "context": "Knotek questions the conflation of disinformation with populism and discusses the role of public media.",
+            "assessment": "He assesses that labeling dissenting voices as populist is hypocritical and undermines genuine public discourse.",
+            "proposals": "He calls for an assessment of public media changes based on laws rather than political alignment."
+        }
+    },
+    {
+        "speaker": "Antonella Sberna",
+        "political_group": "European Conservatives and Reformists (ECR)",
+        "language": "Italian",
+        "arguments": {
+            "context": "Sberna addresses the historical nature of disinformation and the need for a neutral approach to protect freedom of expression.",
+            "assessment": "She assesses that the rise of online platforms has made truth manipulation easier, posing risks to democracy.",
+            "proposals": "She proposes supporting the publishing industry and ensuring that new regulations account for technological changes."
+        }
+    },
+    {
+        "speaker": "Gaetano Pedulla'",
+        "political_group": "The Left in the European Parliament (GUE/NGL)",
+        "language": "Italian",
+        "arguments": {
+            "context": "Pedulla' discusses the ongoing issue of fake news and the concentration of media power.",
+            "assessment": "He assesses that media pluralism is severely compromised in many European countries, particularly in Italy.",
+            "proposals": "He calls for serious sanctions against media manipulation and urges the chamber to take a stand against disinformation."
+        }
+    },
+    {
+        "speaker": "Marc Jongen",
+        "political_group": "Identity and Democracy (ID)",
+        "language": "German",
+        "arguments": {
+            "context": "Jongen criticizes the EU's censorship under the pretext of combating fake news.",
+            "assessment": "He assesses that the EU is suppressing criticism while allowing propaganda to flourish.",
+            "proposals": "He calls for treating European citizens as adults and protecting freedom of opinion and press."
+        }
+    },
+    {
+        "speaker": "Zoltán Tarr",
+        "political_group": "European People's Party (EPP)",
+        "language": "Hungarian",
+        "arguments": {
+            "context": "Tarr discusses state-sponsored misinformation and the need for citizen vigilance.",
+            "assessment": "He assesses that the Hungarian government has a significant influence over media, distorting public perception.",
+            "proposals": "He proposes educating citizens about media influences and ensuring journalists' freedom to uphold journalistic values."
+        }
+    }
+]

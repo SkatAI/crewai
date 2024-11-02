@@ -1,0 +1,11 @@
+services:
+  crewai-agent:
+    build: .
+    tty: true        # Keep the service running
+    stdin_open: true # Enable interactive mode
+
+    volumes:
+      - ./:/app
+
+    # environment:
+    #   - DISCORD_TOKEN

@@ -1,0 +1,5 @@
+{
+    // "scraping_task": "Extract the complete debate text from the provided URL. Ensure all speaker interventions are captured in chronological order. The debate content should be structured to clearly separate different speakers and their contributions.",
+    "ner_task": "For each intervention in the debate text: 1. Extract the speaker's full name 2. Identify their political group affiliation 3. Determine their role or position Format the output as a list of speaker entries with their associated metadata. Verify that no speakers are missed and all affiliations are correctly identified.",
+    "analysis_task": "For each speaker intervention identified in the previous task: 1. Extract main arguments presented 2. Identify their assessment of the situation 3. List any specific proposals or recommendations made. Format the output as a JSON object with the following structure: { 'speakers': [ { 'name': 'speaker_name', 'political_group': 'group_name', 'role': 'speaker_role', 'intervention': { 'arguments': ['arg1', 'arg2', ... ], 'situation_assessment': 'assessment_text', 'proposals': ['proposal1', 'proposal2', ...  ]}}]}"
+}

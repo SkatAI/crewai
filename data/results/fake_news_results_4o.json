@@ -1,0 +1,91 @@
+[
+    {
+        "speaker": "Věra Jourová",
+        "language": "English",
+        "political_group": "European Commission",
+        "main_arguments": "Foreign information manipulation and interference are attacking democracies. The war in Ukraine is also an information war. Lies are amplified through digital platforms and AI.",
+        "context": "The European Union has strengthened its protection against attacks on democracies and security. The European Parliament and the INGE Committee play essential roles.",
+        "assessment": "The situation is very serious.",
+        "proposals": "Fight back against information manipulation and interference."
+    },
+    {
+        "speaker": "Javier Zarzalejos",
+        "language": "Spanish",
+        "political_group": "European People's Party (EPP)",
+        "main_arguments": "Disinformation is a challenge to democratic systems, benefiting from technology. Fake news has become a business and a strategy for some governments.",
+        "context": "References to historical events and current disinformation campaigns. Concerns about legislation proposed by the Spanish government.",
+        "assessment": "Democratic systems are in a toxic environment.",
+        "proposals": "Reclaim the role of independent media and denounce governments using disinformation as a pretext for censorship."
+    },
+    {
+        "speaker": "Ana Catarina Mendes",
+        "language": "Portuguese",
+        "political_group": "Progressive Alliance of Socialists and Democrats (S&D)",
+        "main_arguments": "Fake news and disinformation are used by adversaries of the European project. The EU's Media Freedom Regulation is a positive step.",
+        "context": "The need for regulations on digital services and markets. The role of AI in democracies.",
+        "assessment": "Strong democratic societies require strong media.",
+        "proposals": "Implement digital regulations and strengthen the rule of law report."
+    },
+    {
+        "speaker": "Ondřej Knotek",
+        "language": "Czech",
+        "political_group": "Identity and Democracy (ID)",
+        "main_arguments": "Questions the inclusion of populism in the debate on disinformation. Criticizes labeling of populists.",
+        "context": "Discussion on public media and impartiality.",
+        "assessment": "Criticism of the debate's framing.",
+        "proposals": "Assess media changes according to laws, not political inclinations."
+    },
+    {
+        "speaker": "Antonella Sberna",
+        "language": "Italian",
+        "political_group": "European Conservatives and Reformists (ECR)",
+        "main_arguments": "Disinformation affects everyone. AI in news production brings new risks.",
+        "context": "European legislation and the European Digital Media Observatory.",
+        "assessment": "Neutral approach needed to counter disinformation.",
+        "proposals": "Support publishing with new resources and rules."
+    },
+    {
+        "speaker": "Laurence Farreng",
+        "language": "French",
+        "political_group": "Renew Europe (RE)",
+        "main_arguments": "Disinformation harms democracy. Algorithms fuel misleading content.",
+        "context": "Accountability of platforms through DSA and DMA.",
+        "assessment": "Need for transparency and independent information.",
+        "proposals": "Regain control over algorithms and support public media."
+    },
+    {
+        "speaker": "Nela Riehl",
+        "language": "English",
+        "political_group": "Greens/European Free Alliance (Greens/EFA)",
+        "main_arguments": "Disinformation is a security risk. Importance of independent broadcasting.",
+        "context": "Experience as a teacher dealing with disinformation.",
+        "assessment": "Resilient society needs factual information.",
+        "proposals": "Protect and foster independent journalism."
+    },
+    {
+        "speaker": "Gaetano Pedulla'",
+        "language": "Italian",
+        "political_group": "The Left (GUE/NGL)",
+        "main_arguments": "Disinformation is fueled by political forces. Media pluralism is lacking.",
+        "context": "Concentration of media systems and government control.",
+        "assessment": "Media pluralism is a joke in some countries.",
+        "proposals": "Sanction or become complicit in disinformation."
+    },
+    {
+        "speaker": "Marc Jongen",
+        "language": "German",
+        "political_group": "Identity and Democracy (ID)",
+        "main_arguments": "EU censors unwanted opinions under the pretext of protection.",
+        "context": "Access to critical news portals is blocked.",
+        "assessment": "Criticism of EU's approach to disinformation.",
+        "proposals": "Treat citizens like adults and protect freedom of opinion."
+    },
+    {
+        "speaker": "Zoltán Tarr",
+        "language": "Hungarian",
+        "political_group": "European Conservatives and Reformists (ECR)",
+        "main_arguments": "State-sponsored misinformation must be detectable.",
+        "context": "Influence over media in Hungary.",
+        "assessment": "EU expectations show a distorted mirror to Hungary.",
+        "proposals": "Educate the population and ensure freedom of journalists."
+    }

@@ -1,0 +1,89 @@
+[
+    {
+        "speaker": "Stella Kyriakides",
+        "language": "English",
+        "political_group": "European People's Party (EPP)",
+        "main_arguments": [
+            "Environmental human rights defenders and whistle-blowers play a crucial role in democracy.",
+            "A clean, healthy, and sustainable environment is a recognized human right."
+        ],
+        "context": [
+            "UN resolution in 2022 recognizing environmental rights.",
+            "Aarhus Convention defining procedural rights related to the environment."
+        ],
+        "situation_assessment": "Environmental defenders face risks such as judicial harassment and threats.",
+        "proposals": [
+            "Reinforce protection through the anti-SLAPP Directive and the Environmental Crime Directive.",
+            "Transposition of these directives by Member States by May 2026."
+        ]
+    },
+    {
+        "speaker": "Leire Pajín",
+        "language": "Spanish",
+        "political_group": "Progressive Alliance of Socialists and Democrats (S&D)",
+        "main_arguments": [
+            "Fundamental rights and rule of law are at stake in the case of Paul Watson.",
+            "Need to improve protection for whistle-blowers in Europe."
+        ],
+        "context": [
+            "International arrest warrant issued by Japan in 2012.",
+            "Detention of an environmental activist in an EU Member State."
+        ],
+        "situation_assessment": "More citizens demand accountability for violations of European law.",
+        "proposals": [
+            "Review and make effective the Whistle-blower Directive and the Directive against Strategic Lawsuits Against Public Participation."
+        ]
+    },
+    {
+        "speaker": "Virginie Joron",
+        "language": "French",
+        "political_group": "Identity and Democracy (ID)",
+        "main_arguments": [
+            "Paul Watson's extradition raises questions about international law and human rights.",
+            "Japan's actions violate the international moratorium on whaling."
+        ],
+        "context": [
+            "Paul Watson's arrest in Greenland and possible extradition to Japan.",
+            "International moratorium on whaling since 1986."
+        ],
+        "situation_assessment": "The case is similar to those of Julian Assange and Edward Snowden.",
+        "proposals": [
+            "Find a balance between animal welfare and human traditions without geopolitical tensions."
+        ]
+    },
+    {
+        "speaker": "Per Clausen",
+        "language": "English",
+        "political_group": "The Left in the European Parliament - GUE/NGL",
+        "main_arguments": [
+            "Japan violated international law by conducting illegal whaling.",
+            "Extraditing Paul Watson would be unfair and untenable."
+        ],
+        "context": [
+            "Japan's legal system criticized by the UN and Human Rights Watch.",
+            "Japan has the death penalty."
+        ],
+        "situation_assessment": "Japan is the fundamental criminal in this case.",
+        "proposals": [
+            "Paul Watson must not be extradited to Japan."
+        ]
+    },
+    {
+        "speaker": "Annalisa Corrado",
+        "language": "English",
+        "political_group": "The Greens/European Free Alliance (Greens/EFA)",
+        "main_arguments": [
+            "Paul Watson's actions were non-violent and aimed at saving cetaceans.",
+            "The EU and Denmark should not allow his extradition."
+        ],
+        "context": [
+            "Paul Watson's detention in Danish territory.",
+            "Over 1,000 whales are slaughtered annually for commercial purposes."
+        ],
+        "situation_assessment": "Extradition to Japan would be disproportionate for non-violent actions.",
+        "proposals": [
+            "Request the immediate release of Paul Watson.",
+            "End the practice of illegal whaling."
+        ]
+    }
+]

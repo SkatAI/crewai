@@ -1,0 +1,51 @@
+# Deploy for github actions
+
+name: DeployCrewAI
+
+# Triggers only when code is pushed to the master branch
+on:
+  push:
+    branches: [master]
+
+jobs:
+  deploy: # Separate job for deployment
+    runs-on: ubuntu-latest # Uses the latest Ubuntu runner provided by GitHub
+
+    env:
+      TARGET_DIR: "/root/app/crewai"
+
+    steps:
+      # Step 1: Check out the repository code
+      - uses: actions/checkout@v2
+
+      # Step 2: Set up SSH for deployment
+      - name: Add SSH key
+        run: |
+          mkdir -p ~/.ssh
+          echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_rsa
+          chmod 600 ~/.ssh/id_rsa
+          ssh-keyscan -H ${{ secrets.HOST }} >> ~/.ssh/known_hosts
+
+      # Step 3: Test SSH connection
+      - name: Test connection
+        run: |
+          ssh ${{ secrets.SSH_USER }}@${{ secrets.HOST }} "pwd"
+
+      # Step 4: Create bot directory on VM droplet if it doesn't exist
+      - name: Create bot directory
+        run: |
+          ssh ${{ secrets.SSH_USER }}@${{ secrets.HOST }} "mkdir -p ${{ env.TARGET_DIR }}"
+
+      # Step 5: Copy files from repo to VM ./bots/username/ folder
+      - name: Copy files to the server
+        run: |
+          scp -r ./* ${{ secrets.SSH_USER }}@${{ secrets.HOST }}:${{ env.TARGET_DIR }}/
+
+      - name: cp .env secrets file to bot folder
+        run: |
+          ssh ${{ secrets.SSH_USER }}@${{ secrets.HOST }} "cp ~/credentials/.env ${{ env.TARGET_DIR }}/"
+
+      # Step 7: Build and run with docker-compose
+      - name: Build and run with docker compose -d --build
+        run: |
+          ssh ${{ secrets.SSH_USER }}@${{ secrets.HOST }} "cd ${{ env.TARGET_DIR }} && docker compose up -d --build"
